@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'main')))
+
 import numpy as np
 from assignment_3 import (
     gaussian_elimination_with_back_substitution,
